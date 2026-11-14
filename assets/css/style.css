@@ -65,7 +65,7 @@ a:hover>.soc,a.soc:hover{transform:scale(1.08)}
 .hd.hide{transform:translateY(-100%)}
 .hd .in{position:relative;display:flex;align-items:center;justify-content:space-between;height:76px;gap:24px}
 .logo{display:flex;align-items:center;gap:12px;text-decoration:none;line-height:1.15}
-.logo svg{width:40px;height:40px}
+.logo svg{width:44px;height:44px}
 .logo b{display:block;font-size:1.2rem;font-weight:800}
 .logo small{display:block;font-size:.7rem;font-weight:600;opacity:.8}
 .nav{display:none;align-items:center;gap:28px;list-style:none;padding:0}
@@ -259,12 +259,12 @@ a:hover>.soc,a.soc:hover{transform:scale(1.08)}
 /* Reveal saat scroll */
 .js .rv{opacity:0;transform:translateY(28px)}
 .js .rv.in{opacity:1;transform:none;transition:opacity .85s ease-out,transform .85s var(--ease);transition-delay:var(--d,0s)}
-.js .rvi{clip-path:inset(0 0 100% 0)}
-.js .rvi.in{clip-path:inset(0);transition:clip-path 1.1s var(--ease)}
+.js .rvi{opacity:0;transform:scale(.96) translateY(20px)}
+.js .rvi.in{opacity:1;transform:none;transition:opacity .9s ease-out,transform 1.1s var(--ease)}
 
 @media(prefers-reduced-motion:reduce){
   html{scroll-behavior:auto}
   *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
-  .w>i{transform:none}.fade-in{opacity:1}.js .rv,.js .rvi{opacity:1;transform:none;clip-path:none}
+  .w>i{transform:none}.fade-in{opacity:1}.js .rv,.js .rvi{opacity:1;transform:none}
   .marq{overflow-x:auto}.fab::after{display:none}
 }

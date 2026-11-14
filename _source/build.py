@@ -107,8 +107,9 @@ def words(text, start=0):
     return ' '.join(out)
 
 
-LOGO = ('<svg viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="9" fill="#C9A45C"/>'
-        '<path d="M10 29V11l10 12 10-12v18" fill="none" stroke="#14243A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/></svg>')
+LOGO = ('<svg viewBox="0 0 44 44" aria-hidden="true"><circle cx="22" cy="22" r="22" fill="#fff"/>'
+        '<circle cx="22" cy="22" r="18.5" fill="none" stroke="#254B73" stroke-width="1.6"/>'
+        '<path d="M12.500 31V13.500l9.500 11.500 9.500-11.500V31" fill="none" stroke="#254B73" stroke-width="3.800" stroke-linejoin="round" stroke-linecap="round"/></svg>')
 
 NAVS = [('index.html', 'Beranda'), ('tentang.html', 'Tentang'), ('program.html', 'Program'),
         ('metode.html', 'Metode & Etika'), ('galeri.html', 'Galeri'), ('testimoni.html', 'Testimoni'), ('kontak.html', 'Kontak')]
